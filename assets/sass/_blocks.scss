@@ -1,0 +1,13 @@
+ul.blocks {
+  @include align-items(flex-start);
+  @include flex-wrap(wrap);
+  li.block {
+    @include flex(1 1 21em);
+    p {
+      padding: .5em;
+    }
+    iframe {
+      max-width: 100%;
+    }
+  }
+}

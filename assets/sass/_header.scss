@@ -1,0 +1,19 @@
+#header > a[href="#menu"] {
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+//  background: rgba(106, 144, 190, .5);
+  background: rgba(77, 88, 87, .75);
+  box-shadow: 0 0 1px white;
+  &:hover {
+//    background: rgba(106, 144, 190, .25);
+    background: rgba(77, 88, 87, .5)
+  }
+}
+
+#menu {
+  background: #607d8b;
+  .close {
+    color: white;
+  }
+}
